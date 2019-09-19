@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+</head>
+<body>
+    Hello World!
+    <hr/>
+
+    <!--取值-->
+    <span th:text="${key}">啊哦，没有数据</span>
+    <span th:text="${success}">明天会更♂！</span>
+    <hr/>
+
+    <!--循环集合-->
+    <span th:each="str:${list}" th:text="${str}"></span>
+
+    <p th:each="str:${list}">
+        <span th:text="${str}"/>
+    </p>
+    <hr/>
+
+    <!--循环-->
+    <p th:if="1==1">我还活着呢</p>
+
+</body>
+</html>

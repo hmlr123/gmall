@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hmlr123.gmall.manage.mapper.PmsSkuInfoMapper">
+    <resultMap id="getPmsSkuSaleAttrValueByProductIdMap" type="com.hmlr123.gmall.bean.PmsSkuInfo" autoMapping="true">
+        <result property="id" column="psi_id"></result>
+        <collection property="skuSaleAttrValueList" ofType="com.hmlr123.gmall.bean.PmsSkuSaleAttrValue" autoMapping="true">
+            <result property="id" column="pssav_id"></result>
+        </collection>
+    </resultMap>
+
+    <select id="getPmsSkuSaleAttrValueByProductId" resultMap="getPmsSkuSaleAttrValueByProductIdMap">
+        SELECT
+            psi.*, pssav.*, psi.id as psi_id, pssav.id as pssav_id
+        FROM
+            pms_sku_info psi,
+            pms_sku_sale_attr_value pssav
+        WHERE
+            psi.id = pssav.sku_id
+            AND psi.product_id = #{productId}
+    </select>
+</mapper>

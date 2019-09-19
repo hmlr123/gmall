@@ -1,5 +1,6 @@
 package com.hmlr123.gmall.user.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.hmlr123.gmall.bean.UmsMember;
 import com.hmlr123.gmall.bean.UmsMemberReceiveAddress;
 import com.hmlr123.gmall.service.UserService;
@@ -17,9 +18,11 @@ import java.util.List;
  * @Version: 1.0
  */
 @RestController
+@CrossOrigin(origins = "*", maxAge = 3600)//解决跨域问题 跨域访问注解
 public class UserController {
 
-    @Autowired
+    //远程协助代理
+    @Reference
     private UserService userService;
 
     @GetMapping("index")
@@ -28,13 +31,13 @@ public class UserController {
         return "Hello World!";
     }
 
-    @GetMapping("/list")
+    @GetMapping("list")
     @ResponseBody
     public List<UmsMember> getAllUser() {
         return userService.selectUsers();
     }
 
-    @GetMapping("/receiveAddress/{memberId}")
+    @GetMapping("receiveAddress/{memberId}")
     @ResponseBody
     public List<UmsMemberReceiveAddress> getReceiveAddressByMemeberId(@PathVariable("memberId") String memberId) {
         return userService.getReceiveAddressByMemeberId(memberId);

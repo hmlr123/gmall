@@ -1,5 +1,8 @@
 package com.hmlr123.gmall.manage.mapper;
 
+import com.hmlr123.gmall.bean.PmsSkuAttrValue;
+import tk.mybatis.mapper.common.Mapper;
+
 /**
  * @ClassName: PmsSkuAttrValueMapper
  * @Description: TODO
@@ -7,5 +10,5 @@ package com.hmlr123.gmall.manage.mapper;
  * @Date: 2019/8/24 20:37
  * @Version: 1.0
  */
-public class PmsSkuAttrValueMapper {
+public interface PmsSkuAttrValueMapper extends Mapper<PmsSkuAttrValue> {
 }

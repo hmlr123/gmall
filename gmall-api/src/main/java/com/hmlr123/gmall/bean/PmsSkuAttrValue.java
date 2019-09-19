@@ -1,4 +1,4 @@
-package com.atguigu.gmall.beans;
+package com.hmlr123.gmall.bean;
 
 import javax.persistence.Column;
 import javax.persistence.Id;

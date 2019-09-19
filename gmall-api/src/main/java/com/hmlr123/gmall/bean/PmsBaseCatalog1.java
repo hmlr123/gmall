@@ -1,10 +1,9 @@
-package com.atguigu.gmall.beans;
-
-import com.atguigu.gmall.bean.BaseCatalog2;
+package com.hmlr123.gmall.bean;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.List;
+
 
 /**
  * @param
@@ -18,8 +17,8 @@ public class PmsBaseCatalog1 implements Serializable {
     @Column
     private String name;
 
-    @Transient
-    private List<BaseCatalog2> catalog2s;
+    @Transient//说明是游离态，不是数据库的字段内容
+    private List<PmsBaseCatalog2> catalog2s;
 
     public String getId() {
         return id;

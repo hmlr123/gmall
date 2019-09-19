@@ -1,7 +1,8 @@
-package com.atguigu.gmall.beans;
+package com.hmlr123.gmall.bean;
 
 import javax.persistence.Column;
 import javax.persistence.Id;
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
@@ -9,14 +10,14 @@ import java.util.Date;
  * @param
  * @return
  */
-public class PaymentInfo {
+public class PaymentInfo implements Serializable {
 
     @Column
     @Id
     private String  id;
 
     @Column
-    private String outTradeNo;
+    private String orderSn;
 
     @Column
     private String orderId;
@@ -50,12 +51,12 @@ public class PaymentInfo {
         this.id = id;
     }
 
-    public String getOutTradeNo() {
-        return outTradeNo;
+    public String getOrderSn() {
+        return orderSn;
     }
 
-    public void setOutTradeNo(String outTradeNo) {
-        this.outTradeNo = outTradeNo;
+    public void setOrderSn(String orderSn) {
+        this.orderSn = orderSn;
     }
 
     public String getOrderId() {

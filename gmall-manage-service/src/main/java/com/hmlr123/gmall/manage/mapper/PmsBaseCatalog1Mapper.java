@@ -1,5 +1,8 @@
 package com.hmlr123.gmall.manage.mapper;
 
+import com.hmlr123.gmall.bean.PmsBaseCatalog1;
+import tk.mybatis.mapper.common.Mapper;
+
 /**
  * @ClassName: PmsBaseCatalog1Mapper
  * @Description: TODO
@@ -7,5 +10,5 @@ package com.hmlr123.gmall.manage.mapper;
  * @Date: 2019/8/3 20:26
  * @Version: 1.0
  */
-public class PmsBaseCatalog1Mapper {
+public interface PmsBaseCatalog1Mapper extends Mapper<PmsBaseCatalog1> {
 }

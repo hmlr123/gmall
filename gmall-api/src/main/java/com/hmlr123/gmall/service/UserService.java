@@ -1,7 +1,7 @@
-package com.hmlr123.gmall.user.service;
+package com.hmlr123.gmall.service;
 
-import com.hmlr123.gmall.user.bean.UmsMember;
-import com.hmlr123.gmall.user.bean.UmsMemberReceiveAddress;
+import com.hmlr123.gmall.bean.UmsMember;
+import com.hmlr123.gmall.bean.UmsMemberReceiveAddress;
 
 import java.util.List;
 
@@ -21,4 +21,44 @@ public interface UserService {
     List<UmsMember> selectUsers();
 
     List<UmsMemberReceiveAddress> getReceiveAddressByMemeberId(String memberId);
+
+    /**
+     * 用户登录验证.
+     *
+     * @param umsMember
+     * @return
+     */
+    UmsMember login(UmsMember umsMember);
+
+
+    /**
+     * 将token存储到redis
+     *
+     * @param token
+     * @param memberId
+     */
+    void addToken(String token, String memberId);
+
+    /**
+     * 检查用户信息.
+     *
+     * @param uid
+     * @return
+     */
+    UmsMember checkUser(Long uid);
+
+    /**
+     * 添加用户信息
+     *
+     * @param user
+     */
+    void addUser(UmsMember user);
+
+    /**
+     * 获取收获地址
+     *
+     * @param receiveAddressId 地址id
+     * @return
+     */
+    UmsMemberReceiveAddress getReceiveAddressById(String receiveAddressId);
 }

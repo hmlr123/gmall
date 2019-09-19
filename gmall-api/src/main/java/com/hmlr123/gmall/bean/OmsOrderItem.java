@@ -1,4 +1,4 @@
-package com.atguigu.gmall.beans;
+package com.hmlr123.gmall.bean;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -6,29 +6,29 @@ import java.math.BigDecimal;
 public class OmsOrderItem implements Serializable {
 
     private String id;
-    private String         orderId;
+    private String orderId;
     private String orderSn;
-    private String         productId;
+    private String productId;
     private String productPic;
-    private String        productName;
+    private String productName;
     private String productBrand;
-    private String         productSn;
-    private String productPrice;
-    private int         productQuantity;
+    private String productSn;
+    private BigDecimal productPrice;
+    private Integer productQuantity;
     private String productSkuId;
-    private String        productSkuCode;
+    private String productSkuCode;
     private String productCategoryId;
-    private String         sp1;
+    private String sp1;
     private String sp2;
-    private String        sp3;
+    private String sp3;
     private String promotionName;
     private BigDecimal promotionAmount;
     private BigDecimal couponAmount;
-    private BigDecimal         integrationAmount;
-    private String realAmount;
-    private int        giftIntegration;
-    private int giftGrowth;
-    private String        productAttr;
+    private BigDecimal integrationAmount;
+    private BigDecimal realAmount;
+    private Integer giftIntegration;
+    private Integer giftGrowth;
+    private String productAttr;
 
 
     public String getId() {
@@ -95,19 +95,19 @@ public class OmsOrderItem implements Serializable {
         this.productSn = productSn;
     }
 
-    public String getProductPrice() {
+    public BigDecimal getProductPrice() {
         return productPrice;
     }
 
-    public void setProductPrice(String productPrice) {
+    public void setProductPrice(BigDecimal productPrice) {
         this.productPrice = productPrice;
     }
 
-    public int getProductQuantity() {
+    public Integer getProductQuantity() {
         return productQuantity;
     }
 
-    public void setProductQuantity(int productQuantity) {
+    public void setProductQuantity(Integer productQuantity) {
         this.productQuantity = productQuantity;
     }
 
@@ -191,27 +191,27 @@ public class OmsOrderItem implements Serializable {
         this.integrationAmount = integrationAmount;
     }
 
-    public String getRealAmount() {
+    public BigDecimal getRealAmount() {
         return realAmount;
     }
 
-    public void setRealAmount(String realAmount) {
+    public void setRealAmount(BigDecimal realAmount) {
         this.realAmount = realAmount;
     }
 
-    public int getGiftIntegration() {
+    public Integer getGiftIntegration() {
         return giftIntegration;
     }
 
-    public void setGiftIntegration(int giftIntegration) {
+    public void setGiftIntegration(Integer giftIntegration) {
         this.giftIntegration = giftIntegration;
     }
 
-    public int getGiftGrowth() {
+    public Integer getGiftGrowth() {
         return giftGrowth;
     }
 
-    public void setGiftGrowth(int giftGrowth) {
+    public void setGiftGrowth(Integer giftGrowth) {
         this.giftGrowth = giftGrowth;
     }
 
