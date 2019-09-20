@@ -26,9 +26,16 @@
         <dubbo.version>2.6.0</dubbo.version>
         <zkclient.version>0.10</zkclient.version>
         <mybatis.version>1.3.1</mybatis.version>
+        <!-- 解析Html NekoHTML是一个简单地HTML扫描器和标签补偿器(tag balancer),使得程序能解析HTML文档并用标准的XML接口来访问其中的信息。
+        这个解析器能投扫描HTML文件并“修正”许多作者（人或机器）在编写HTML文档过程中常犯的错误。
+        NekoHTML能增补缺失的父元素、自动用结束标签关闭相应的元素，以及不匹配的内嵌元素标签。
+        NekoHTML的开发使用了Xerces Native Interface (XNI)，后者是Xerces2的实现基础。-->
         <nekohtml.version>1.9.20</nekohtml.version>
+        <!--解析xml-->
         <xml-apis.version>1.4.01</xml-apis.version>
+        <!--mybatis增强-->
         <batik-ext.version>1.9.1</batik-ext.version>
+        <!--解析html-->
         <jsoup.version>1.11.2</jsoup.version>
         <httpclient.version>4.5.5</httpclient.version>
         <commons-lang3.version>3.7</commons-lang3.version>
@@ -98,7 +105,7 @@
                 <version>${jsoup.version}</version>
             </dependency>
 
-            <!--java http请求（java的浏览器）-->
+            <!--java http请求（java的浏览器） 工具类-->
             <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
@@ -127,6 +134,7 @@
             </dependency>
 
             <!-- https://mvnrepository.com/artifact/io.searchbox/jest -->
+            <!--elasticsearch客户端-->
             <dependency>
                 <groupId>io.searchbox</groupId>
                 <artifactId>jest</artifactId>
@@ -149,10 +157,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-
-
-
-
-
 </project>
