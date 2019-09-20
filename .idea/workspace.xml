@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="086853ed-64fe-4b62-8a22-1daf6d0d61f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/_state/global-54.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-cart-web/target/classes/com/hmlr123/gmall/cart/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-cart-web/target/classes/com/hmlr123/gmall/cart/controller/CartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-seckill/target/classes/com/hmlr123/gmall/seckill/controller/SeckillController.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-seckill/target/classes/com/hmlr123/gmall/seckill/controller/SeckillController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user-web/target/classes/com/hmlr123/gmall/user/GmallUserWebApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/gmall-parent/target/" />
     <ignored path="$PROJECT_DIR$/gmall-api/target/" />
@@ -91,7 +86,7 @@
           <entry key="conf" value="3" />
           <entry key="css" value="4" />
           <entry key="fxml" value="2" />
-          <entry key="gitignore" value="6" />
+          <entry key="gitignore" value="7" />
           <entry key="html" value="113" />
           <entry key="iml" value="2" />
           <entry key="java" value="646" />
@@ -117,7 +112,7 @@
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="22" />
           <entry key="Markdown" value="18" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="Properties" value="103" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="106" />
@@ -161,26 +156,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="366">
-                <caret line="826" lean-forward="true" selection-start-line="826" selection-end-line="826" />
-                <folding>
-                  <element signature="e#1007#1008#0" expanded="true" />
-                  <element signature="e#1071#1072#0" expanded="true" />
-                  <element signature="e#794#795#0" expanded="true" />
-                  <element signature="e#842#843#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -375,6 +351,16 @@
               <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-order-web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -393,7 +379,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/gmall-api/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-web-util/src/main/java/com/hmlr123/gmall/util/CookieUtil.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-service-util/src/main/java/com/hmlr123/gmall/util/RedisUtil.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PmsSearchCrumb.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/OmsCartItem.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-seckill/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/OmsOrder.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PmsProductSaleAttrValue.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PmsSkuAttrValue.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PmsBaseAttrValue.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-parent/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-user-web/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-common-util/src/main/java/utils/HttpContextUtils.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-web-util/src/main/java/com/hmlr123/gmall/mq/ActiveMqConfig.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-common-util/src/main/java/utils/SpringContextUtils.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-web-util/src/main/java/configs/WebMvcConfiguration.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-payment-web/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-order-web/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-item-web/.gitignore&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/OmsOrderItem.java&#10;E:/AllProject/java/IdeaProjects/gmall/gware-manage/src/main/java/com/atguigu/gware/config/JsonpController.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PmsBaseAttrInfo.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-web-util/src/main/java/util/CookieUtil.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-service-util/src/main/java/com/hmlr123/gmall/mq/ActiveMqUtil.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-web-util/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gware-manage/src/main/java/com/atguigu/gware/mq/WareConsumer.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-web-util/src/main/java/interceptors/AuthInterceptor.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/service/UserService.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-web-util/src/main/java/util/JwtUtil.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/service/PaymentService.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-service-util/src/main/java/com/hmlr123/gmall/util/CachrUtils.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-order-service/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/service/AttributeService.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PmsProductSaleAttr.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/service/CartService.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-service-util/src/main/java/com/hmlr123/gmall/conf/RedisConf.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PmsProductInfo.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-web-util/src/main/java/com/hmlr123/gmall/annotations/LoginRequired.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-search-service/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gware-manage/src/main/java/com/atguigu/gware/mapper/WareSkuMapper.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-item-web/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-service-util/src/main/java/com/hmlr123/gmall/util/SpringUtil.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PmsSearchSkuInfo.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-service-util/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/service/SkuService.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PaymentInfo.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-common-util/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-user-service/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-cart-web/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-service-util/src/main/java/com/hmlr123/gmall/util/Constant.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-common-util/src/main/java/com/hmlr123/gmall/util/HttpclientUtil.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PmsSkuInfo.java&#10;E:/AllProject/java/IdeaProjects/gmall/gware-manage/src/main/java/com/atguigu/gware/config/ActiveMQConfig.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PmsSkuSaleAttrValue.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-service-util/src/main/java/com/hmlr123/gmall/util/CacheUtils.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PmsSkuImage.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-cart-service/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-payment-service/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gware-manage/src/main/resources/application.properties&#10;E:/AllProject/java/IdeaProjects/gmall/gware-manage/src/main/java/com/atguigu/gware/config/GwareConst.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-service-util/src/main/java/com/hmlr123/gmall/mq/ActiveMqConfig.java&#10;E:/AllProject/java/IdeaProjects/gmall/gware-manage/src/main/java/com/atguigu/gware/service/impl/GwareServiceImpl.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-web-util/src/main/java/com/hmlr123/gmall/interceptors/AuthInterceptor.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/service/OrderService.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-manage-web/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PmsProductImage.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-manage-service/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gware-manage/src/main/java/com/atguigu/gware/controller/GwareController.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-web-util/src/main/java/com/hmlr123/gmall/configs/WebMvcConfiguration.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/service/SearchService.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-passport-web/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-web-util/src/main/java/com/hmlr123/gmall/util/JwtUtil.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/UmsMember.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-web-util/src/main/java/annotations/LoginRequired.java&#10;E:/AllProject/java/IdeaProjects/gmall/gware-manage/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-search-web/pom.xml&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/service/SpuService.java&#10;E:/AllProject/java/IdeaProjects/gmall/gmall-api/src/main/java/com/hmlr123/gmall/bean/PmsSearchParam.java" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568950656382" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568952855053" />
     <property name="last_opened_file_path" value="E:/实习/中科创达/thundersoft-devops" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -715,7 +701,7 @@
       <workItem from="1568870735097" duration="11439000" />
       <workItem from="1568897217424" duration="4175000" />
       <workItem from="1568904385679" duration="1190000" />
-      <workItem from="1568940652083" duration="6107000" />
+      <workItem from="1568940652083" duration="7070000" />
     </task>
     <servers />
   </component>
@@ -752,7 +738,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381722000" />
+    <option name="totallyTimeSpent" value="382685000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -765,7 +751,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-309" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1108,13 +1093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gmall-order-service/src/main/java/com/hmlr123/gmall/GmallOrderServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1251,8 +1229,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="366">
-            <caret line="826" lean-forward="true" selection-start-line="826" selection-end-line="826" />
+          <first_editor relative-caret-position="426">
+            <caret line="832" lean-forward="true" selection-start-line="832" selection-end-line="832" />
             <folding>
               <element signature="e#1007#1008#0" expanded="true" />
               <element signature="e#1071#1072#0" expanded="true" />
@@ -1261,6 +1239,13 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
