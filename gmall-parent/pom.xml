@@ -23,7 +23,7 @@
         <java.version>1.8</java.version>
         <fastjson.version>1.2.46</fastjson.version>
         <dubbo-starter.version>1.0.10</dubbo-starter.version>
-        <dubbo.version>2.6.0</dubbo.version>
+        <dubbo.version>2.6.12</dubbo.version>
         <zkclient.version>0.10</zkclient.version>
         <mybatis.version>1.3.1</mybatis.version>
         <!-- 解析Html NekoHTML是一个简单地HTML扫描器和标签补偿器(tag balancer),使得程序能解析HTML文档并用标准的XML接口来访问其中的信息。
